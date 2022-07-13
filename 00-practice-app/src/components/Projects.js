@@ -10,9 +10,9 @@ const styles = {
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
-function Section() {
+function Projects() {
   return (
-    <section style={styles.sectionStyles} className="section">
+    <section style={styles.sectionStyles} className="projects">
       <h2>Lorem Ipsum Dolor Sit Amet</h2>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -57,4 +57,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default Projects;
