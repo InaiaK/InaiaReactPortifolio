@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from "../images/inaia.jpeg";
 
 
 const styles = {
@@ -10,7 +11,7 @@ const styles = {
     background: '#9a74db',
     minHeight: 50,
     lineHeight: 3.5,
-    fontSize: '1.2rem',
+    fontSize: '2.5rem',
     color: 'white',
     padding: '0 20px',
   },
@@ -23,6 +24,9 @@ function Home() {
       <div style={styles.heading}>Home</div>
       <h1>Inaia Martin </h1>
       <p>FullStack Dev.</p>
+      <div>
+      <img src={Profile} alt="Inaia"/>
+    </div>
     </div>
   );
 }

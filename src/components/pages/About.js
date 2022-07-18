@@ -16,10 +16,16 @@ const styles = {
   p:{
     background: '#9a74db',
     fontSize: '1.2rem',
-    
+     },
+     h2:{
 
-  }
+     },
+     ul:{
+
+     },
 };
+
+
 export default function About() {
   return (
     <div style={styles.card}>
@@ -27,25 +33,24 @@ export default function About() {
       <p style={styles.p}>
      Hey there! I'm Inaia Martin.
       I Am A Full Stack Student At University Of Denver. I Am Trilingual Professional ( Portuguese, English And Spanish) 
-      With Background And Experience In Hospitality/Tourism Industry.
-      6 Months
-Fullstack Bootcamp At University Of Denver.
-
-9 Months
-Codeacademy.
-
-FrontEnd
-HTML
-
-CSS
-
-JavaScript
-
-BackEnd
-MySQL
-
-MongoDB
-      </p>
+      With Background And Experience In Hospitality/Tourism Industry.</p>
+      <h2 style={styles.h2}>6 Months</h2>
+      <p>Fullstack Bootcamp At University Of Denver.</p>
+      <h2>9 Months</h2>
+      <p>Codeacademy</p>
+      <h2>Skills</h2>
+      <ul style={styles.ul}>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>API</li>
+        <li>React.Js</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Heroku</li>
+        <li>Insomnia</li>
+        <li>GitHub</li>
+      </ul>
     </div>
   );
 }

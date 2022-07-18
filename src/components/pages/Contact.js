@@ -20,9 +20,13 @@ export default function Contact() {
     <div style={styles.card}>
       
       <h1 style={styles.heading}>Contact Page</h1>
-      <p>
-      Inaia5martin@Gmail.Com
-      </p>
+      <div class="share">
+        <p>inaia5martin@gmail.com</p>
+    <a href="https://github.com/InaiaK" target="_blank" class="fab fa-github">GitHub</a>
+    <a href="https://www.linkedin.com/in/inai%C3%A1-m-52660b16a/" target="_blank" class="fab fa-linkedin">linkedin</a>
+</div>
+
+      
     </div>
   );
 }

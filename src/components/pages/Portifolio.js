@@ -18,12 +18,7 @@ export default function Portifolio() {
   return (
     <div style={styles.card}>
       <h1 style={styles.heading}>Portifolio</h1>
-      <p>
-PROJECT 01 
-PROJECT 02
-PROJECT 03 
-PROJECT 04 
-      </p>
     </div>
+    
   );
 }

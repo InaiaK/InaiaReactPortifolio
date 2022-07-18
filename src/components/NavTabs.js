@@ -3,7 +3,9 @@ import React from 'react';
 const styles = {
   card: {
     margin: 20,
-    background: '#e8eaf6',
+    background: 'rgba (1.1.0.5)',
+    fontSize:'1.5rem',
+    fontFamily:'Ariel',
   },
 }
 // Here we are using object destructuring assignment to pluck off our variables from the props object
