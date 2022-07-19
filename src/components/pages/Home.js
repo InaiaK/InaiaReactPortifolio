@@ -1,4 +1,5 @@
 import React from "react";
+import '../utils/style.css';
 
 const styles = {
   div:{

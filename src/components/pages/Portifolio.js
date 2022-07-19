@@ -1,5 +1,6 @@
 import React from 'react';
-import Event from "../images/event.jpeg";
+import EventPic from '../images/event.jpeg';
+import '../utils/style.css';
 
 
 const styles = {
@@ -25,7 +26,7 @@ const styles = {
 const portifolioData = [
   {
     id:"project1",
-    image: "Event",
+    image: "EventPic",
     title:"EventListner",
     link:"https://inaiak.github.io/eventListener/",
     github:"https://github.com/InaiaK/eventListener",

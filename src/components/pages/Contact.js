@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { checkPassword, validateEmail } from '../utils/helpers';
+import '../utils/style.css';
 
 const styles = {
   div:{
@@ -10,7 +11,7 @@ const styles = {
     margin:0,
     background: "black",
     minHeight: 50,
-    lineHeight: 3.5,
+    lineHeight: 8.5,
     fontSize: "2.5rem",
     fontStyle:"italic",
     color: "pink",
@@ -18,10 +19,12 @@ const styles = {
     alignItems: "center",
   },
   form:{
-    fontSize: "2.5rem",
+    margin:30,
+    fontSize: "1.5rem",
     fontStyle:"italic",
     alignItems: "center",
-    lineHeight: 10.5,
+    display: "flex",
+    justifyContent: "center",
   }
 };
 
@@ -76,31 +79,31 @@ function Form() {
   };
 
   return (
-    <div>
+    <div style={styles.heading}> Contact
       <p>{userName}</p>
       <form className="form" style={styles.form}>
-        <input
+        <input style={styles.form}
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
-        <input
+        <input style={styles.form}
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
           placeholder="username"
         />
-        <input
+        <input style={styles.form}
           value={password}
           name="password"
           onChange={handleInputChange}
           type="password"
           placeholder="Password"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button style={styles.form} type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
