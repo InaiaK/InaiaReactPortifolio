@@ -11,15 +11,22 @@ const styles = {
     margin:0,
     background: "black",
     minHeight: 50,
-    lineHeight: 8.5,
+    lineHeight: 5.5,
     fontSize: "2.5rem",
     fontStyle:"italic",
     color: "pink",
     padding: "0 20px",
     alignItems: "center",
   },
+  p:{
+    margin:0,
+    padding:0,
+  },
   form:{
+    background: "black",
+    color: "pink",
     margin:30,
+    padding:10,
     fontSize: "1.5rem",
     fontStyle:"italic",
     alignItems: "center",
@@ -80,8 +87,15 @@ function Form() {
 
   return (
     <div style={styles.heading}> Contact
-      <p>{userName}</p>
+      <p style={styles.p}>Nice to meet you,{userName}</p>
       <form className="form" style={styles.form}>
+       <input style={styles.form}
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="username"
+        /> 
         <input style={styles.form}
           value={email}
           name="email"
@@ -89,13 +103,7 @@ function Form() {
           type="email"
           placeholder="email"
         />
-        <input style={styles.form}
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        />
+        
         <input style={styles.form}
           value={password}
           name="password"

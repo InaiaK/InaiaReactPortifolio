@@ -4,13 +4,12 @@ import '../utils/style.css';
 const styles = {
   div:{
     backgroundColor: `#ffb6c1`,
-    lineHeight: 2.5,
+    display:'flex',
 
   },
   heading: {
     background: "black",
-    minHeight: 50,
-    lineHeight: 3.5,
+    lineHeight: 4.5,
     fontSize: "2.5rem",
     fontStyle:"italic",
     color: "pink",
@@ -24,6 +23,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    padding:120,
   },
   p: {
     fontSize: "3.5rem",
@@ -31,16 +31,9 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    padding:0,
+    padding:65,
   },
-  img: {
-    borderRadius: 150,
-    height: "20rem",
-    width: "20rem",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
+  
 };
 
 function Home() {
