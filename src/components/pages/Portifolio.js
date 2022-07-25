@@ -1,7 +1,7 @@
 import React from 'react';
 import EventPic from '../images/event.jpeg';
 import NotePic from '../images/notetaker.jpeg';
-import '../utils/style.css';
+
 
 
 const styles = {

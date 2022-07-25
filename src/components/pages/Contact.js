@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { checkPassword, validateEmail } from '../utils/helpers';
-import '../utils/style.css';
+
 
 const styles = {
   div:{

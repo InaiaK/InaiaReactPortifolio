@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "../images/inaia.jpeg";
-import '../utils/style.css';
+
 
 const styles = {
   div: {

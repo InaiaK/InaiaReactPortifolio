@@ -1,11 +1,11 @@
 import React from "react";
-import '../utils/style.css';
+
 
 const styles = {
   div:{
     backgroundColor: `#ffb6c1`,
     display:'flex',
-
+    flex:'wrap',
   },
   heading: {
     background: "black",
@@ -15,6 +15,7 @@ const styles = {
     color: "pink",
     padding: "0 20px",
     alignItems: "center",
+    flex:'wrap',
   },
   h1: {
     fontSize: "8rem",
@@ -24,6 +25,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     padding:120,
+    flex:'wrap',
   },
   p: {
     fontSize: "3.5rem",
@@ -32,6 +34,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     padding:65,
+    flex:'wrap',
   },
   
 };
