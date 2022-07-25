@@ -1,5 +1,5 @@
 import React from "react";
-import EventPicture from "../images/event.jpeg";
+import EventPicture from "../images/event2.webp";
 import NotePicture from "../images/notetaker.jpeg";
 import PasswordPicture from "../images/password.jpeg";
 

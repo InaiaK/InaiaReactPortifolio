@@ -148,7 +148,7 @@
   
   .card-img-top {
     min-height: 168px;
-    border-radius: 10%;
+    max-width: 200px;
   }
   
   .form {
@@ -156,7 +156,9 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-right: 100px;
+
   }
   
   #userInput,
@@ -165,22 +167,24 @@
     border-radius: 10%;
     color: pink;
     background-color: black;
-    margin: 10px 0px;
-    min-width: 600px;
-    text-align: center;
+    text-align: left;
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+
   }
-  
-  textarea {
-    min-height: 200px;
-  }
-  
+    
   #submit {
     margin-left: 50%;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
   
   @media screen and (max-width: 1140px) {
     .card {
+      flex-basis: 33%;
+    }
+    form{
       flex-basis: 33%;
     }
   }
