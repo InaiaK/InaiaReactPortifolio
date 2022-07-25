@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/InaiaReactPortifolio/static/js/main.b63d9984.js",
+    "static/media/inaia.jpeg": "/InaiaReactPortifolio/static/media/inaia.f8bde26836c6db13bcef.jpeg",
+    "static/media/event.jpeg": "/InaiaReactPortifolio/static/media/event.e6aa78fcf2abb58daadf.jpeg",
+    "static/media/notetaker.jpeg": "/InaiaReactPortifolio/static/media/notetaker.b5ef75d9c487050c5bdd.jpeg",
+    "index.html": "/InaiaReactPortifolio/index.html",
+    "main.b63d9984.js.map": "/InaiaReactPortifolio/static/js/main.b63d9984.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b63d9984.js"
+  ]
+}
