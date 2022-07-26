@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/InaiaReactPortifolio/static/css/main.ffcf558e.css",
+    "main.js": "/InaiaReactPortifolio/static/js/main.4128b2d4.js",
+    "static/media/inaia.jpeg": "/InaiaReactPortifolio/static/media/inaia.f8bde26836c6db13bcef.jpeg",
+    "static/media/event2.webp": "/InaiaReactPortifolio/static/media/event2.51420dc055b1600140d1.webp",
+    "static/media/notetaker.jpeg": "/InaiaReactPortifolio/static/media/notetaker.b5ef75d9c487050c5bdd.jpeg",
+    "static/media/password.jpeg": "/InaiaReactPortifolio/static/media/password.2c7f9bb5e7ed7b1f6935.jpeg",
+    "index.html": "/InaiaReactPortifolio/index.html",
+    "main.ffcf558e.css.map": "/InaiaReactPortifolio/static/css/main.ffcf558e.css.map",
+    "main.4128b2d4.js.map": "/InaiaReactPortifolio/static/js/main.4128b2d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffcf558e.css",
+    "static/js/main.4128b2d4.js"
+  ]
+}
