@@ -6,9 +6,6 @@ I Am Trilingual Professional ( Portuguese, English And Spanish) With Background 
 
 
 
-# Link
-
-
 # Image
 <img src="https://github.com/InaiaK/InaiaReactPortifolio/blob/main/src/images/2022-07-24%20(3).png">
 
